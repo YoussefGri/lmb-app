@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    password: password
+    url: jdbc:sqlite:client.db
+    username: sa
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  secret: ARpuixkAJgkTYCw6qC3TIvJYlm17b5mz7cRT4abKB58DsgFU1dsPuLgq7cS1aUc0XhYsVAeJmS0ORWBKx2PgJ0PuBFAoBK5hXP2nXWmXS0LtfKOfIUMIyZIAGC1dXBpXlwddv1cVZ7XPOzPCj2KhseggdNjP716uUhryLqf3JJOkaVrVS0TLqmQpC4mMXJCYXkYFKQwblrxZ89TiRca3WFSczMkbCTeYqqFGQ6SSYkI9DCKOwbQviJGn6jwrrC5P
